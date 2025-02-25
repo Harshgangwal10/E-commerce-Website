@@ -38,18 +38,20 @@ This API is used in:
 
 <h2>Images</h2>
 
-![Screenshot 2025-02-25 164048](https://github.com/user-attachments/assets/50c5ff6c-6297-4c74-8936-b189d215b673)
+![Screenshot 2025-02-25 171732](https://github.com/user-attachments/assets/41cce738-0822-4d33-9d4b-fad43ba643bb)
 
 <hr>
 
 
-![Screenshot 2025-02-25 164103](https://github.com/user-attachments/assets/6b06966d-4afe-4b61-8552-3e21c7f3244f)
+![image](https://github.com/user-attachments/assets/9812de3e-b678-490b-8c02-49cd6f6d70ec)
+
 
 <hr>
 
-![Screenshot 2025-02-25 164116](https://github.com/user-attachments/assets/ce4ad03b-9220-4e26-8e30-0137afeef1ed)
+![image](https://github.com/user-attachments/assets/a7937a64-a2ea-4cd2-8481-72e4fa3779ea)
 
 <hr>
+
 
 ![Screenshot 2025-02-25 163927](https://github.com/user-attachments/assets/53a9563e-80ea-4458-90d3-ac4d9f1bcbc9)
 
@@ -59,7 +61,7 @@ This API is used in:
 
 <hr>
 
-![Screenshot 2025-02-25 170023](https://github.com/user-attachments/assets/0ab54f6d-e08a-4a84-99df-d76ccb283e78)
+![image](https://github.com/user-attachments/assets/641ceb3c-1ede-4bdc-8366-54b0c686a337)
 
 <hr>
 
