@@ -1,0 +1,85 @@
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px; 
+  padding: 20px 0px ;
+}
+.navbar-content{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.navbar-content .search-bar{
+ align-items: center; 
+ margin-right: 20px;
+
+}
+.search-bar input{
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+  width: 300px;
+}
+
+.bag-login{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+
+}
+.bagIcon img{
+  position: relative;
+}
+.cart-count{
+ position: absolute;
+ background-color: red;
+ color: white;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 3px 7px;
+  border-radius: 50%;
+
+}
+.login{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+@media (max-width:780px) {
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; 
+  
+  }
+ .navbar h1{
+ font-size: 30px;
+ }
+ .navbar-content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+
+}
+.search-bar input{
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+  width: 170px;
+}
+.bag-login{
+  display: flex;
+  align-items: center;
+}
+  
+  
+}
