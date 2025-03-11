@@ -7,23 +7,6 @@ JavaScript
 
 Axios (for API calls)
 
-<h3>Steps to Set Up the Project </h3>
-
-1: Clone the Repository
-
-2: Install Dependencies
-
-  npm install, react-router-dom,axios ,react-icons
-  
-3: Run the Development Server
- 
-   npm run dev 
-
-4: Open your browser and go to:
-
-  localhost
-
-
   <h2>API Integration</h2>
 
   https://fakestoreapi.com/products
