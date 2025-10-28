@@ -1,25 +1,30 @@
- import React, { useState } from 'react';
-import Navbar from '../../components/Navbar/Navbar';
-import Header from '../../components/Header/Header.jsx';
-import ExploreCart from '../../components/ExploreCart/ExploreCart.jsx';
-import ProductCard from '../../components/ProductCard/ProductCard.jsx';
-import './Home.css';
-import Footer from '../../components/footer/footer.jsx'
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
+import Navbar from "../../components/Navbar/Navbar";
+import ProductCard from "../../components/ProductCard/ProductCard.jsx";
+import "./Home.css";
+import Footer from "../../components/footer/footer.jsx";
 
 const Home = () => {
-  const [searchValue, setSearchValue] = useState(''); 
-  const [cartCount, setCartCount] = useState(0); 
+  const [searchValue, setSearchValue] = useState("");
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const cartCount = useSelector((state) => state.cart.totalQuantity);
 
   return (
-    <div className='home'>
-      <Navbar setSearchValue={setSearchValue}  cartCount={cartCount }/>  
-      <Header/>
-      <ExploreCart />
-      <ProductCard searchValue={searchValue} setCartCount={setCartCount} />  
-      <Footer/>
-      
+    <div className="home">
+      <Navbar
+        setSearchValue={setSearchValue}
+        setSelectedCategory={setSelectedCategory}
+        cartCount={cartCount}
+      />
+
+      <ProductCard
+        searchValue={searchValue}
+        selectedCategory={selectedCategory}
+      />
+      <Footer />
     </div>
   );
 };
 
-export default Home; 
+export default Home;
